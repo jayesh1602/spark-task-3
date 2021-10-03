@@ -1,0 +1,287 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #12172b;
+}
+.donate-container{
+    
+    width: 40rem;
+    height: 20rem;
+    
+    margin-top: 1rem;
+    margin-left: 30rem;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: rgb(195, 231, 141);
+
+
+
+
+}
+
+.donate-container:hover{
+    width: 39.9rem;
+    height: 19.9rem;
+}
+
+.donate-head{
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+
+}
+
+.donate-text{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-size: 20px;
+    
+}
+
+.donate-p{
+    text-align: center;
+    padding-top: 2rem;
+    color: red;
+    font-size: 2rem;
+
+}
+
+.cta{
+    display: inline-block;
+    padding: 8px 25px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 60px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 15px;
+    transition: .3s ease background-color;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+
+}
+
+.cta:hover{
+    background-color: crimson;
+    color: white;
+}
+
+
+.payment-btn{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+/*  team */
+
+
+.container{
+    margin: 20px 40px;
+    color: white;
+    display: flex;
+}
+
+.heading{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.profiles{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px;
+}
+
+.profile{
+    flex-basis: 260px;
+}
+.profile .profile-img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+    
+}
+
+.profile:hover .profile-img{
+
+    filter: grayscale(0);
+
+}
+
+.user-name{
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.profile h5{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.profile p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+
+}
+
+@media screen and (max-width: 400px){
+
+    .donate-container{
+    
+        width: 20rem;
+        height: 15rem;
+        
+        margin-top: 1rem;
+        margin-left: 1rem;
+        border: 2px solid black;
+        border-radius: 40px;
+        background-color: rgb(195, 231, 141);
+    
+    
+    
+    
+    }
+    
+    .donate-container:hover{
+        width: 39.9rem;
+        height: 19.9rem;
+    }
+    
+    .donate-head{
+        display: flex;
+        align-items: center;
+        margin-left: 3rem;
+        margin-top: 2rem;
+        font-size: 25px;
+    
+    }
+    
+    .donate-text{
+        margin-left: 3rem;
+        margin-top: 2rem;
+        font-size: 10px;
+        
+    }
+    
+    .donate-p{
+        text-align: center;
+        padding-top: 1rem;
+        color: red;
+        font-size: 2rem;
+    
+    }
+
+
+    .cta:hover{
+        background-color: crimson;
+        color: white;
+    }
+    
+    
+    .payment-btn{
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    
+    }  
+    
+    /*  our team */
+
+
+    .container{
+        margin: 20px 10px;
+        color: white;
+        display:inline-flex;
+        flex-direction: column;
+        
+    }
+    
+    .heading{
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .profiles{
+       
+        margin: 20px 70px;
+        padding: 0px;
+    }
+    
+    .profile{
+        flex-basis: 260px;
+
+    }
+    .profile .profile-img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    
+        filter: grayscale(100%);
+        cursor: pointer;
+        transition: 400ms;
+        
+    }
+    
+    .profile:hover .profile-img{
+    
+        filter: grayscale(0);
+    
+    }
+    
+    .user-name{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    
+    .profile h5{
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 3px;
+        color: white;
+    }
+    
+    .profile p{
+        font-size: 0px;
+        margin-top: 20px;
+        text-align: justify;
+    
+    }
+    
+
+
+
+
+
+
+
+
+}
+
+

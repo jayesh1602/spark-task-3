@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    
+   
+}
+
+.about-section{
+   
+    background: url(dounloads/glass-jar-full-of-cois-with-donate-written-on-it-charity-donation-philanthropy_large.jpg) no-repeat left;
+    background-size: 90%;
+    background-color: white;
+    overflow: hidden;
+    padding: 100px 0;
+    
+}
+
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: white;
+    padding: 150px;
+
+}
+
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.inner-container h1:hover{
+    color: crimson;
+}
+.border{
+    height: 3PX;
+    width: 150PX;
+    background-color: red;
+
+
+}
+
+.text{
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-weight: 600;
+
+}
+
+.button{
+    border: none;
+    padding: 8px 15px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* about me */
+
+.about-me{
+    background-color: white;
+
+}
+
+.about-container{
+    display: flex;
+}
+
+.about-head{
+    font-size: 55px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding: 3rem;
+}
+
+.about-connect-me-text{
+
+    margin-left: 68%;
+    margin-top: 10px;
+}
+.about-text{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin-left: 50px;
+    line-height:3rem;
+
+}
+
+.my-img{
+    width:20rem;
+    height: 20rem;
+    margin-left: 10rem;
+    border-radius: 20px;
+
+}
+
+.my-img:hover{
+    filter: grayscale(100%);
+}
+
+.social-icons{
+text-align: center;
+margin-left: 44rem;
+padding: 10px;
+
+}
+
+.ic{
+    filter: grayscale(0);
+}
+
+.ic:hover{
+    filter: grayscale(100%);
+}
+
+
+.cta{
+    display: inline-block;
+    padding: 8px 25px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 60px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 15px;
+    transition: .3s ease background-color;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+
+}
+
+.cta:hover{
+    background-color: crimson;
+    color: white;
+}
+
+
+/* end about me*/
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px){
+
+
+
+    .about-section{
+   
+        background:none;
+        background-size: 100%;
+        background-color: white;
+        
+        padding: 0px 0;
+        
+    }
+
+    .text{
+        color: white;
+    }
+    
+    .inner-container{
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        background-color: black;
+        padding: 40px;
+        color: white;
+    
+    }
+    
+    
+    .inner-container h1{
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: 800;
+        color: white;
+    }
+    
+    .inner-container h1:hover{
+        color: crimson;
+    }
+
+    .button{
+        border: none;
+        padding: 8px 15px;
+        background-color: crimson;
+        color: white;
+        text-decoration: none;
+        width: 50%;
+    }
+    
+    .button:hover{
+        background-color: black;
+        color: white;
+    }
+
+
+    /* about me*/
+
+
+
+    .about-container{
+        display: inline-flex;
+        flex-direction:column ;
+    
+    }
+
+    .about-head{
+        font-size: 35px;
+        font-weight: 600;
+        color: black;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 5px;
+    }
+    
+    .about-connect-me-text{
+    
+        margin-left: 28%;
+        margin-top: 1rem;
+    }
+    .about-text{
+        font-size: 13px;
+        font-weight: 600;
+        color: black;
+        margin-left: 25px;
+        
+        line-height:2rem;
+        margin-top: 0px;
+    
+    }
+    
+    .my-img{
+        width:13rem;
+        height: 13rem;
+        margin-left: 5rem;
+        border-radius: 20px;
+        margin-top: 1rem;
+        border: 2px solid black;
+    
+    }
+    
+    .my-img:hover{
+        filter: grayscale(100%);
+    }
+
+    .social-icons{
+        text-align: center;
+        margin-left:0rem;
+        padding: 3px;
+        
+        }
+        
+        .ic{
+            filter: grayscale(0);
+            margin: 0.5rem;
+        }
+        
+        .ic:hover{
+            filter: grayscale(100%);
+        }
+    
+    
+    
+    
+    .cta{
+        display: inline-block;
+        padding: 8px 25px;
+        color: black;
+        background-color: black;
+        border: 2px solid crimson;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        font-weight: 60px;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        margin-top: 15px;
+        transition: .3s ease background-color;
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: white;
+        margin-left: 2rem;
+    
+    
+    }
+    
+    .cta:hover{
+        background-color: crimson;
+        color: white;
+    }
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

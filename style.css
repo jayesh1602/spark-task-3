@@ -1,7 +1,140 @@
 body {
     margin: 0%;
+    padding: 0%;
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+
+/*  new navbar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: #34495e;
+}
+
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+
+}
+
+nav a{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    border: 1px solid white;
+    transition: 0.2s;
+
+}
+
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+
+@media (max-width:909px) {
+    
+
+    nav{
+        height: 50px;
+        width: 100%;
+        background: #9fbedd;
+    }
+
+    label.logo{
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        padding: 0 20px;
+        line-height: 50px;
+        margin-left: 2rem;
+        color: black;
+    }
+
+    nav ul{
+        position: absolute;
+        width: 100%;
+        height: 0vh;
+        background:black;
+        top: 2px;
+        left: 0;
+        margin-left: 2rem;
+        color: black;
+        
+
+    }
+
+    nav li{
+        
+        margin: 3.5rem 1rem;
+        padding: 4px;
+        line-height: 10px;
+        color: black;
+        margin-left: 0.2rem;
+        margin-top: 4rem;
+    }
+
+    nav a{
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+
+    a:hover{
+
+        border: none;
+        color: #3498db;
+
+    }
+
+    nav ul.show{
+        left: 0;
+
+    }
+
+}
+
+
+
+
+
+/*  end new navbar */
 
 
 
@@ -53,26 +186,7 @@ body {
 
 /* boot navbar  */
 
-.nav-items{
-    margin-left: 80px;
-}
-.nav{
-    font-size: 25px;
-    font-weight: 600;
-    float: left;
-    display: block;
-    color: rgb(29, 14, 14);
-    text-align: center;
-    padding: 10px 60px;
-    text-decoration: none;
-    
-    padding-left: 10px;
-    
-}
 
-.nav:hover{
-    color: crimson;
-}
 
 
 /* end boot  nav */
@@ -81,7 +195,7 @@ body {
 
 
 
-/*  end contact page */
+
 
 
 
@@ -144,6 +258,11 @@ body {
     color: white;
 }
 
+.connect-foundation{
+    font-size: 1.2rem;
+
+}
+
 
 
 
@@ -192,35 +311,14 @@ body {
   }
 
 
+
+  /*  media quiry for mobile */
+
+
   @media screen and (max-width: 400px)
 {
 
-    .nav-items{
-       margin: 2px;
-       margin-left: 1rem;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-    }
-
     
-    .nav{
-        font-size: 20px;
-        font-weight: 800;
-        float: left;
-        display: block;
-        color: rgb(29, 14, 14);
-        text-align: center;
-        padding: 10px 65px;
-        text-decoration: none;
-        
-        padding-left: 2px;
-        
-    }
-    
-    .nav:hover{
-        color: crimson;
-    }
 
     /*  all text content .image and button */
 
@@ -267,9 +365,9 @@ body {
     
     
     .index-container .slogan{
-        font-size: 20px;
+        font-size: 24px;
         margin-left: 8rem;
-        margin-top: 8rem;
+        margin-top: 3rem;
 
        
     
@@ -283,7 +381,7 @@ body {
         background-color: red;
         border: 4px solid white;
         border-radius: 5px;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 60px;
         text-transform: uppercase;
         letter-spacing: .1rem;
@@ -358,7 +456,7 @@ body {
       .index-logos-mobile{
           display: flex;
           margin-left: 6rem;
-          margin-top: 8rem;
+          margin-top: 4rem;
 
 
       }
@@ -386,7 +484,7 @@ body {
     
 }
 
- /*  start media quiry for contact page */
+ 
 
 
 
